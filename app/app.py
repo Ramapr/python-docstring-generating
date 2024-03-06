@@ -3,7 +3,7 @@ import sys
 import streamlit as st
 from streamlit.web import cli as stcli
 from streamlit import runtime
-from utils import get_first_params
+from parse import get_first_params
 
 AVAILABLE_ROWS = ["Parameters", "Notes", "Raises", "Example"]
 
